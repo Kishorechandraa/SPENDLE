@@ -1,0 +1,169 @@
+body {
+  background-color: dodgerblue;
+  margin: 0;
+}
+
+.incbtn, .expbtn{
+  background: none;
+  border: none;
+  outline: none;
+  box-shadow: none;
+  cursor: pointer;
+}
+
+header {
+  background-color: white;
+  padding: 40px;
+}
+
+nav {
+  display: flex;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  padding: 5px 15px;
+  top: 0;
+}
+
+span {
+  display: flex;
+}
+
+nav a {
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
+}
+
+#img:hover {
+  transform: translateY(-3px);
+}
+
+.column {
+  float: left;
+  width: fit-content;
+  margin-left: 30px;
+  height: 88vh;
+  overflow-y: auto;
+}
+
+.column:last-of-type {
+  padding-left: 35px;
+}
+
+.cat {
+  border: 2px solid limegreen;
+  width: fit-content;
+  border-radius: 10px;
+  padding-bottom: 20px;
+  background-color: white;
+}
+
+.cat:first-of-type {
+  border: 2px solid red;
+}
+
+.cat img {
+  padding: 17px;
+}
+
+.cat img:hover {
+  opacity: 0.6;
+}
+
+.container {
+  background-image: url(images/blue-border.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: white;
+  padding: 20px;
+  text-align: center;
+  border: 3px solid darkviolet;
+  border-radius: 15px;
+  margin: 30px auto;
+  width: 350px;
+}
+
+h2 {
+  color: white;
+  text-align: center;
+  padding-bottom: 10px;
+  margin: 20px;
+}
+
+.inc-exp-container {
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  margin: 10px 0;
+}
+
+.inc-exp-container > div {
+  display: flex;
+  width:45%;
+  flex-direction: column;
+  border-radius: 15px;
+  background-color: red;
+}
+
+.inc-exp-container > div:first-of-type {
+  background-color: limegreen;
+}
+
+label {
+  font-weight: bold;
+  font-size: 17px;
+}
+
+#amount {
+  border-radius: 10px;
+  display: block;
+  font-size: 16px;
+  padding: 10px;
+  border: 2px solid darkorchid;
+  margin: 10px;
+  width: 90%;
+}
+
+button {
+  font-weight: bold;
+}
+
+.button {
+  padding: 10px 20px;
+  color: black;
+  border: none;
+  font-weight: bold;
+  font-size: 15px;
+  background: linear-gradient(45deg, cornflowerblue , cyan );
+  border-radius: 15px;
+}
+
+.button:hover {
+  background: linear-gradient(45deg, cyan , cornflowerblue );
+}
+
+.change {
+  padding: 5px 10px;
+  border: none;
+  background-color: dodgerblue;
+  border-radius: 30px;
+}
+
+.change:hover {
+  background-color: red;
+}
+
+td {
+  padding: 5px 10px;
+  background-color: azure;
+  text-align: center;
+}
+
+td:last-of-type {
+  background: none;
+}
+
+tr:first-of-type {
+  background: none;
+}

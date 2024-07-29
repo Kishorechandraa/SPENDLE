@@ -1,0 +1,140 @@
+body {
+    background-color: dodgerblue;
+    margin: 0;
+}
+
+header {
+    background-color: white;
+    padding: 40px;
+}
+
+.column {
+    float: left;
+    margin-left: 30px;
+    margin-top: 50px;
+}
+
+.column:nth-of-type(2) {
+    margin-left: 6%;
+    width: fit-content;
+}
+
+.column:last-of-type {
+    margin-left: 10%;
+    width: fit-content;
+}
+
+nav {
+    display: flex;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    padding: 5px 15px;
+    top: 0;
+  }
+  
+nav span {
+    display: flex;
+}
+  
+nav a {
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+}
+
+h2 {
+    color: white;
+    text-align: center;
+    padding-bottom: 10px;
+    margin-top: 100px;
+}
+
+.cat {
+    background-color: white;
+    border: 2px solid red;
+    border-radius: 10px;
+    width: fit-content;
+    padding-bottom: 20px;
+}
+
+.cat img {
+    padding: 17px;
+}
+
+.cat img:hover {
+    opacity: 0.6;
+}
+
+.expbtn {
+    background: none;
+    border: none;
+    outline: none;
+    box-shadow: none;
+    cursor: pointer;
+}
+
+#img:hover {
+    transform: translateY(-3px);
+}
+
+button {
+    font-weight: bold;
+}
+
+.button {
+    padding: 10px;
+    margin-top: 20px;
+    color: black;
+    border: none;
+    font-weight: bold;
+    font-size: 15px;
+    background: linear-gradient(45deg, cornflowerblue , cyan );
+    border-radius: 15px;
+}
+
+.button:hover {
+    background: linear-gradient(45deg, cyan , cornflowerblue );
+}
+
+.budget_content {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border: 2px solid limegreen;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    font-weight: bold;
+    margin-left: 25px;
+}
+
+input {
+    padding: 10px;
+    width: 200px;
+    margin: 20px;
+    border-radius: 3px;
+}
+
+label {
+    color: red;
+}
+
+.cards li {
+    height: 130px;
+    width: 170px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid darkviolet;
+    display: flex;
+    align-items: center;
+}
+
+.cards li:hover {
+    background-image: url(../images/client-bg.png);
+}
+
+.cards li img {
+    padding-right: 15px;
+}

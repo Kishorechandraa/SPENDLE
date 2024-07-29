@@ -1,0 +1,87 @@
+body {
+    background-color: dodgerblue;
+    margin: 0;
+}
+
+header {
+    background-color: white;
+    padding: 40px;
+}
+
+.chartCard {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.chartBox {
+    display: flex;
+    flex-direction: column;
+    width: 750px;
+    padding: 30px;
+    border-radius: 20px;
+    border: solid 3px darkorchid;
+    background: white;
+}
+
+nav {
+    display: flex;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    padding: 5px 15px;
+    top: 0;
+  }
+  
+  span {
+    display: flex;
+  }
+  
+  nav a {
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+  }
+
+h2 {
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+#img:hover {
+    transform: translateY(-3px);
+}
+
+select {
+    padding: 10px;
+    margin: auto;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.exp {
+    height: 160px;
+    width: 160px;
+    color: red;
+    position: absolute;
+    margin-top: 193px;
+    margin-left: 295px;
+}
+
+.inc {
+    height: 170px;
+    width: 170px;
+    color: limegreen;
+    position: absolute;
+    margin-top: 178px;
+    margin-left: 290px;
+}
+
+h3 {
+    text-align: center;
+    margin-top: 50px;
+}
+
+canvas {
+    margin-top: 20px;
+}
